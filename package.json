@@ -1,17 +1,17 @@
 {
-  "name": "cupidi",
+  "name": "irenamystic",
   "version": "0.0.1",
   "description": "Personal web page",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cupidi/cupidi.github.io.git"
+    "url": "git+https://github.com/IrenaMystic/irenamystic.github.io.git"
   },
   "author": "Mario Ampov",
   "license": "CC-BY-3.0",
   "bugs": {
-    "url": "https://github.com/cupidi/cupidi.github.io/issues"
+    "url": "https://github.com/IrenaMystic/irenamystic.github.io/issues"
   },
-  "homepage": "https://github.com/cupidi/cupidi.github.io#readme",
+  "homepage": "https://github.com/IrenaMystic/irenamystic.github.io#readme",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
