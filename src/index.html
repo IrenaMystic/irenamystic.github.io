@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Mario Ampov</title>
+  
+  <base href="/">
+
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+
+<body>
+  <app-root></app-root>
+
+  <script src="assets/js/skel.min.js"></script>
+  <script src="assets/js/skel-viewport.min.js"></script>
+  <script>
+    skel.breakpoints({
+      desktop: '(min-width: 737px)',
+      tablet: '(min-width: 737px) and (max-width: 1200px)',
+      mobile: '(max-width: 736px)'
+    }).viewport({
+      width: "device-width",
+      scalable: false,
+      breakpoints: {
+        tablet: {
+          width: 1080
+        }
+      }
+    });
+  </script>
+
+</body>
+
+</html>
