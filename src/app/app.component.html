@@ -1,70 +1,37 @@
-<div id="page-wrapper">
-
-	<!-- Header -->
-	<div id="header-wrapper">
-		<div id="header">
-
-			<!-- Logo -->
-			<h1><a href="index.html">Irena Ljubikj</a></h1>
-
-			<!-- Nav -->
-			<nav id="nav">
-				<ul>
-					<li [class.current]="selected == 'me'"><a pageScroll [routerLink]="['']" href="#banner" (click)="selected = 'me'">About Me</a></li>
-					<li [class.current]="selected == 'game'"><a pageScroll [routerLink]="['']" href="#game" (click)="selected = 'game'">Game Projects</a></li>
-					<li [class.current]="selected == 'other'"><a pageScroll [routerLink]="['']" href="#other" (click)="selected = 'other'">Other Projects</a></li>
-					<li [class.current]="selected == 'contact'"><a pageScroll [routerLink]="['']" href="#footer" (click)="selected = 'contact'">Contact</a></li>
+<!-- Wrapper -->
+<div id="wrapper">
+	<!-- Banner -->
+	<!-- Note: The "styleN" class below should match that of the header element. -->
+	<section id="banner" class="major">
+		<div class="inner" [@fadeIn]='state'>
+			<header class="major">
+				<h1>Hi, my name is Irena Ljubikj</h1>
+			</header>
+			<div class="content">
+				<p>A mobile app and game developer</p>
+				<ul class="actions">
+					<li><a pageScroll href="#one" class="button next scrolly">Get Started</a></li>
 				</ul>
-			</nav>
-
-			<!-- Banner -->
-			<section id="banner">
-				<header>
-					<h2>Welcome! My name is Irena.</h2>
-					<p>A mobile app and game developer</p>
-				</header>
-			</section>
-
-			<!-- Skills -->
-			<section id="intro" class="container">
-				<div class="row">
-				</div>
-			</section>
-
+			</div>
 		</div>
-	</div>
+	</section>
 
 	<router-outlet></router-outlet>
 
 	<!-- Footer -->
-	<div id="footer-wrapper">
-		<section id="footer" class="container">
-			<div class="row">
-				<div class="12u">
-					<section>
-						<header>
-							<h2>Contact me</h2>
-						</header>
-						<ul class="social">
-							<li><a class="icon fa-facebook" href="https://facebook.com/irena.ljubik"><span class="label">Facebook</span></a></li>
-							<li><a class="icon fa-twitter" href="https://twitter.com/IrenaLjubik"><span class="label">Twitter</span></a></li>
-							<li><a class="icon fa-linkedin" href="https://linkedin.com/in/irena-ljubik/"><span class="label">LinkedIn</span></a></li>
-						</ul>
-					</section>
-				</div>
-			</div>
-			<div class="row">
-				<div class="12u">
-					<!-- Copyright -->
-					<div id="copyright">
-						<ul class="links">
-							<li>&copy; Irena Ljubikj. All rights reserved.</li>
-							<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-						</ul>
-					</div>
-				</div>
-			</div>
-		</section>
-	</div>
+	<footer id="footer">
+		<div class="inner">
+			<ul class="icons">
+				<li><a class="icon alt grow fa-facebook" href="https://facebook.com/irena.ljubik" target="_blank"><span class="label">Facebook</span></a></li>
+				<li><a class="icon alt grow fa-twitter" href="https://twitter.com/IrenaLjubik" target="_blank"><span class="label">Twitter</span></a></li>
+				<li><a class="icon alt grow fa-linkedin" href="https://linkedin.com/in/irena-ljubik/" target="_blank"><span class="label">LinkedIn</span></a></li>
+
+			</ul>
+			<ul class="copyright">
+				<li>&copy; Irena Ljubikj</li>
+				<li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
+			</ul>
+		</div>
+	</footer>
 
 </div>
