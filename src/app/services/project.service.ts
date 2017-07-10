@@ -64,7 +64,7 @@ export class ProjectService {
       year: '2015-2016',
       description: `Excubitor is a Sci-fi action tower defense game played from an overhead perspective with intense action and depth,
             featuring exhilarating ship combat, unique terrestrial and space environments, strategic defense planning and
-            massive boss fights. It is made with Unity`,
+            massive boss fights. It is made with Unity.`,
       projectMembers: [
          {
           name: 'My Role',
@@ -141,9 +141,9 @@ export class ProjectService {
       name: 'Rite of Passage',
       year: '2016',
       picture: 'riteofpassage.png',
-      description: `Prototype game for Global Game Jam with theme "Ritual". We follow the story of a young man who is about to get
-            on the ritual to get from boy to a man. To earn his rite of passage. Marked by the colours of the warrior he
-            is on a trial to become one. It's a puzzle platformer. Made with Unity.`,
+      description: `Prototype game for Global Game Jam with theme "Ritual". We follow the story of a young man who is about to take
+            on the ritual to get from a boy to a man, to earn his rite of passage. Marked by the colours of the warrior, he
+            is on a trial to become one. The game is a puzzle platformer and is made with Unity.`,
       projectMembers: [
          {
           name: 'My Role',
@@ -179,7 +179,7 @@ export class ProjectService {
       projectMembers: [
          {
           name: 'My Role',
-          role: 'UI & Game Developer'
+          role: 'Game Developer'
         },
         {
           name: 'Mario Ampov',
@@ -187,7 +187,7 @@ export class ProjectService {
         },
         {
           name: 'Ilija Vankov',
-          role: 'Game Developer'
+          role: 'UI & Game Developer'
         },
         {
           name: 'Vladimir Vasilevski',
@@ -210,16 +210,16 @@ export class ProjectService {
       year: '2017',
       picture: 'misejade.png',
       description: `This is a web application that helps people decide what to order to eat while at work, at home or simply want to
-            save time. The idea came to life by our own stuggles while me and my friends were working together. The app is
+            save time. The idea came to life by our own struggles while me and my friends were working together. The app is
             made with Angular.`,
       projectMembers: [
          {
           name: 'My Role',
-          role: 'Developer'
+          role: 'Front-end Developer'
         },
         {
           name: 'Mario Ampov',
-          role: 'Developer'
+          role: 'Front-end Developer'
         },
         {
           name: 'Vladimir Vasilevski',
@@ -247,11 +247,11 @@ export class ProjectService {
       projectMembers: [
          {
           name: 'My Role',
-          role: 'Developer'
+          role: 'Front-end Developer'
         },
         {
           name: 'Mario Ampov',
-          role: 'Developer'
+          role: 'Front-end Developer'
         },
         {
           name: 'Vladimir Vasilevski',
@@ -286,11 +286,11 @@ export class ProjectService {
       projectMembers: [
          {
           name: 'My Role',
-          role: 'Developer'
+          role: 'Front-end Developer'
         },
         {
           name: 'Mario Ampov',
-          role: 'Developer'
+          role: 'Front-end Developer'
         },
         {
           name: 'Vladimir Vasilevski',
@@ -311,11 +311,11 @@ export class ProjectService {
       projectMembers: [
          {
           name: 'My Role',
-          role: 'Developer'
+          role: 'Front-end Developer'
         },
         {
           name: 'Mario Ampov',
-          role: 'Developer'
+          role: 'Back-end and Front-end Developer'
         },
         {
           name: 'Marijan Petrovski',
