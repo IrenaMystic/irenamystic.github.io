@@ -13,17 +13,36 @@
         friends.
       </p>
       <ul class="icons">
-				<li><a class="icon alt grow fa-envelope" href="mailTo:irena.ljubikj@gmail.com" target="_blank"></a></li>
-				<li><a class="icon alt grow fa-facebook" href="https://facebook.com/irena.ljubik" target="_blank"></a></li>
-				<li><a class="icon alt grow fa-twitter" href="https://twitter.com/IrenaLjubik" target="_blank"></a></li>
-				<li><a class="icon alt grow fa-linkedin" href="https://linkedin.com/in/irena-ljubik/" target="_blank"></a></li>
-			</ul>
+        <li><a class="icon alt grow fa-envelope" href="mailTo:irena.ljubikj@gmail.com" target="_blank"></a></li>
+        <li><a class="icon alt grow fa-facebook" href="https://facebook.com/irena.ljubik" target="_blank"></a></li>
+        <li><a class="icon alt grow fa-twitter" href="https://twitter.com/IrenaLjubik" target="_blank"></a></li>
+        <li><a class="icon alt grow fa-linkedin" href="https://linkedin.com/in/irena-ljubik/" target="_blank"></a></li>
+      </ul>
     </div>
   </section>
 
-  <!-- Two -->
-  <section id="two" class="spotlights">
-    <section *ngFor="let project of projects">
+
+  <section class="spotlights">
+    <!-- Games -->
+    <section *ngFor="let project of games; first as isFirst" [id]="isFirst ? 'games' : ''">
+      <a style="cursor: default" class="image"><img src="assets/images/{{project.picture}}" alt="" /></a>
+      <div class="content">
+        <div class="inner">
+          <header class="major">
+            <h3>{{project.name}} ({{project.year}})</h3>
+            <h6 *ngIf="project.company">By {{project.company}}</h6>
+          </header>
+          <p>{{project.description}}</p>
+          <p><span *ngFor="let member of project.projectMembers"><strong>{{member.name}}:</strong> {{member.role}} <br/></span></p>
+          <ul class="icons">
+            <li *ngFor="let action of project.projectActions"><a class="icon alt grow" [ngClass]="action.icon" href="{{action.link}}" target="_blank"><span class="label">YouTube</span></a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Web & Apps -->
+    <section *ngFor="let project of projects; first as isFirst" [id]="isFirst ? 'projects' : ''">
       <a style="cursor: default" class="image"><img src="assets/images/{{project.picture}}" alt="" /></a>
       <div class="content">
         <div class="inner">
@@ -40,5 +59,4 @@
       </div>
     </section>
   </section>
-
 </div>

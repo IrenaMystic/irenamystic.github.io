@@ -24,7 +24,7 @@ export interface Project {
 @Injectable()
 export class ProjectService {
 
-  public projects: Project[] = [
+  public games: Project[] = [
     {
       name: 'Klonk',
       year: '2016-Present',
@@ -33,7 +33,7 @@ export class ProjectService {
             speed and patience to run away from your foe, unlock new characters and features, and compete with friends. The
             game is made with Unity.`,
       projectMembers: [
-         {
+        {
           name: 'My Role',
           role: 'UI & Game Developer'
         },
@@ -66,7 +66,7 @@ export class ProjectService {
             featuring exhilarating ship combat, unique terrestrial and space environments, strategic defense planning and
             massive boss fights. It is made with Unity.`,
       projectMembers: [
-         {
+        {
           name: 'My Role',
           role: 'UI Developer'
         }
@@ -76,11 +76,11 @@ export class ProjectService {
           icon: 'fa-globe',
           link: 'http://excubitorgame.com/'
         },
-         {
+        {
           icon: 'fa-facebook',
           link: 'https://www.facebook.com/ExcubitorGame/'
         },
-         {
+        {
           icon: 'fa-steam',
           link: 'http://store.steampowered.com/app/357030/Excubitor/'
         }
@@ -93,7 +93,7 @@ export class ProjectService {
       description: `2D Puzzle game that me and a couple of friends made in our free time. The game is suppose to challenge your spatial
             and color indexing with fun game mechanics. It is made with Unity.`,
       projectMembers: [
-         {
+        {
           name: 'My Role',
           role: 'UI & Game Developer'
         },
@@ -145,7 +145,7 @@ export class ProjectService {
             on the ritual to get from a boy to a man, to earn his rite of passage. Marked by the colours of the warrior, he
             is on a trial to become one. The game is a puzzle platformer and is made with Unity.`,
       projectMembers: [
-         {
+        {
           name: 'My Role',
           role: 'UI & Game Developer'
         },
@@ -177,7 +177,7 @@ export class ProjectService {
             evil entity and the hero has to be encouraged by others in order to fly, jump higher, run etc. In addition, he
             easily falls under others influence. The game is made with Unity.`,
       projectMembers: [
-         {
+        {
           name: 'My Role',
           role: 'Game Developer'
         },
@@ -204,7 +204,10 @@ export class ProjectService {
           link: 'https://www.youtube.com/watch?v=_WKBZATzTts&t=1s'
         }
       ]
-    },
+    }
+  ]
+
+  public projects: Project[] = [
     {
       name: 'Mi Se Jade',
       year: '2017',
@@ -213,7 +216,7 @@ export class ProjectService {
             save time. The idea came to life by our own struggles while me and my friends were working together. The app is
             made with Angular.`,
       projectMembers: [
-         {
+        {
           name: 'My Role',
           role: 'Front-end Developer'
         },
@@ -245,7 +248,7 @@ export class ProjectService {
             studios near you. With a monthly payment, you can choose time, location and studio to workout. The app is made
             with Angular 2, Ionic 2 and Firebase.`,
       projectMembers: [
-         {
+        {
           name: 'My Role',
           role: 'Front-end Developer'
         },
@@ -284,7 +287,7 @@ export class ProjectService {
       description: `Dareio is a location-based social search hybrid mobile app that facilitates communication between mutually interested
             users, allowing matched users to chat. The app is made with Angular 2, Ionic 2 and Firebase.`,
       projectMembers: [
-         {
+        {
           name: 'My Role',
           role: 'Front-end Developer'
         },
@@ -309,7 +312,7 @@ export class ProjectService {
       description: `Online language learning platform that enables teachers and students to schedule classes. Made with Angular 2 and
             NodeJS.`,
       projectMembers: [
-         {
+        {
           name: 'My Role',
           role: 'Front-end Developer'
         },

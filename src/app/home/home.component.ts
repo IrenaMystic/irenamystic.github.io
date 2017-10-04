@@ -10,11 +10,13 @@ import { ProjectService, Project } from '../services/project.service';
 export class HomeComponent implements OnInit {
 
   public projects: Project[];
+  public games: Project[];
 
   constructor(public projectService: ProjectService) { }
 
   ngOnInit() {
     this.projects = this.projectService.projects;
+    this.games = this.projectService.games;
   }
 
 }
